@@ -1,0 +1,38 @@
+.question-card {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+  color: black;
+  margin-bottom: 10px;
+  margin-left: 15%;
+  width: 70%;
+  background: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 0.4px 0.4px black, 0 1px 1px black, 0 2.1px 2.1px black,
+    0 4.4px 4.4px black, 0 12px 12px black;
+}
+.submit-paper {
+  margin-left: 46vw;
+  margin-top: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.timer-container {
+  display: flex;
+  margin-left: 42vw;
+  width: 20vw;
+  color: white;
+  background-color: #c3073f;
+  border-radius: 4px;
+  box-shadow: 10px 10px 20px rgba(15, 15, 15, 0.281);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  height: 100px;
+
+  h3 {
+    padding: 5px;
+    margin-top: 7%;
+  }
+}

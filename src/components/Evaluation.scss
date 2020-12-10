@@ -1,0 +1,29 @@
+.info-container {
+  margin-left: 32vw;
+  margin-top: 34vh;
+  width: 36%;
+  height: 400px;
+  background-color: #c3073f;
+  border-radius: 8px;
+  box-shadow: 5px 5px 44px #c30773;
+  color: antiquewhite;
+  text-align: center;
+  .mark-holder {
+    position: fixed;
+    margin-top: 6%;
+    margin-left: 9.2%;
+    font-family: "OPEN SANS";
+  }
+  .take-test {
+    margin-top: 280px;
+    margin-right: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: #c30773;
+    &:hover {
+      background-color: darkmagenta;
+      color: white;
+    }
+  }
+}

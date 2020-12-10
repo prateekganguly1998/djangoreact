@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+.form-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  // background: #c3073f;
+}
+.btn {
+  padding: 8px 20px;
+  border-radius: 0;
+  overflow: hidden;
+  &:hover {
+    background-color: darkmagenta;
+    color: white;
+  }
+}
+
+.form-input-material {
+  --input-default-border-color: white;
+  --input-border-bottom-color: white;
+
+  input {
+    color: white;
+  }
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 40px;
+  color: white;
+  margin-top: -20vh;
+  background-color: #c30773;
+  border-radius: 8px;
+  box-shadow: 5px 5px 44px #c30773;
+
+  h1 {
+    margin: 0 0 24px 0;
+  }
+
+  .form-input-material {
+    margin: 12px 0;
+  }
+
+  .btn {
+    width: 100%;
+    margin: 18px 0 9px 0;
+    border-radius: 4px;
+  }
+
+  select {
+    height: 40px;
+    width: 200px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    outline: none;
+    color: #c30773;
+    option {
+      font-weight: 600;
+    }
+  }
+}
